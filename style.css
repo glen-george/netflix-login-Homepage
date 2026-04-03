@@ -1,0 +1,200 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  width: 100%;
+  position:fixed;
+  z-index: 100; 
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), transparent);
+}
+.nav-link {
+  color: #ffffff;
+  margin-right: 18px;
+  font-size: 17px;
+}
+
+.hero{
+min-height: 100vh;
+height: auto;
+padding: 80px 20px;
+position: relative;
+background-image: url(https://4kwallpapers.com/images/wallpapers/wednesday-netflix-5120x2880-22253.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+align-items: center;
+padding-left: 60px;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+   background-color:rgba(0, 0, 0, 0.338);
+    width:100%;
+    height: 100%;
+    z-index: 1;
+}
+.hero-content{
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+    
+
+}
+.hero-content h1{
+    font-size: clamp(24px, 5vw, 56px);
+    padding-bottom: 20px;
+}
+.hero-content p{
+    font-size: clamp(14px, 2vw, 18px);
+}
+.btn-netflix{
+    background-color: #e50914;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-weight: 500;
+      margin-left: 20px;
+}
+.btn-netflix:hover{
+    background-color: #b90d15; 
+}
+
+/* row cards */
+
+
+.section-title{
+    margin:20px;
+    margin-top:30px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.movie-row{
+
+    padding:20px 20px 10px;
+    overflow-x: auto ;
+    white-space: nowrap;
+
+}
+.movie-row::-webkit-scrollbar {
+      display: none;
+    }
+    
+.movie-card{
+    display: inline-block;
+    /* width: 320px;
+    height: 180px; */
+    width: clamp(180px, 40vw, 320px);
+    height: auto;
+    aspect-ratio: 16/9;
+    margin-right: 10px;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.movie-card:hover{
+   transform:scale(1.05);
+   z-index: 5;
+}
+.movie-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+     border-radius:5px;
+}
+ 
+
+
+
+
+
+  
+
+/* Modal Styling */
+.netflix-modal{
+    background-color: #141414;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Banner */
+.modal-banner img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Close button */
+.close-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+    background-color: white;
+    border-radius: 50%;
+}
+
+/* Netflix button */
+.btn-netflix{
+    background-color: #e50914;
+    color: white;
+    border: none;
+    margin-left: 10px;
+}
+
+.btn-netflix:hover{
+    background-color: #b20710;
+}
+
+
+@media (max-width: 768px){
+  .hero{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .hero-content{
+    max-width: 100%;
+  }
+}
+@media (max-width: 768px){
+  .navbar{
+    padding: 10px 15px;
+  }
+
+  .nav-link{
+    margin-right: 0;
+    padding: 10px 0;
+  }
+}
+@media (max-width: 480px){
+  .btn{
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .btn-netflix{
+    margin-left: 0;
+  }
+}
+@media (max-width: 576px){
+  .modal-banner img{
+    height: 200px;
+  }
+
+  .modal-body h2{
+    font-size: 20px;
+  }
+
+  .modal-body p{
+    font-size: 14px;
+  }
+}

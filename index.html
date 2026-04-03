@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>netflix</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark px-4 py-4 ">
+
+        <img src="./media/logo-netflix.svg" alt="">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav  ms-5">
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tv Shows</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Movies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">New & Popular</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">My List</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+<!-- hero section -->
+ <section>
+    
+        <div class="hero">
+           <div class="overlay"></div>
+                <div class="hero-content">
+                    <h1>Wednesday</h1>
+                    <p>Wednesday Addams investigates twisted mysteries while making new friends — and foes — at Nevermore Academy.</p>
+                    <button class="btn btn-light">▶ Play</button>
+                    <button class="btn btn-netflix">More info</button>
+                </div>
+               
+           
+        </div>
+    
+ </section>
+
+
+<!-- rows section images -->
+
+    <h4 class="section-title">Trending Now</h4>
+    <div class="movie-row">
+        <div class="movie-card"><img class="img-fluid movie-card" data-bs-toggle="modal" data-bs-target="#movieModal0" src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2021_37/3506336/210916-netflix-sex-education-jm-1458.jpg" alt="sex-education"></div>
+
+        <div class="movie-card"><img class="img-fluid movie-card" data-bs-toggle="modal" data-bs-target="#movieModal1" src="https://thecsrjournal.in/wp-content/uploads/2025/11/dhurandhar-main.webp" alt="Dhurandar"></div>
+
+        <div class="movie-card"><img class="img-fluid movie-card" data-bs-toggle="modal" data-bs-target="#movieModal2" src="https://venkatarangan.com/wp-content/uploads/2024/05/darlings-movie.jpg" alt="Darling"></div>
+
+        <div class="movie-card"><img class="img-fluid movie-card" data-bs-toggle="modal" data-bs-target="#movieModal3" src="https://cdn.sweetescape.com/images/blogs/article-covers/619/231694be-5d00-4531-9022-99cd091a365b-1080.jpg" alt="MoneyHeist"></div>
+
+        <div class="movie-card"><img class="img-fluid movie-card" data-bs-toggle="modal" data-bs-target="#movieModal4"  src="https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/34b18784-4d52-4492-b9ef-e577ad451c9a/WEDNESDAY+Season+2+Trailer+and+Poster+-+%2522The+Wait+Has+Been+Torture%2522.jpg" alt="Wednesday"></div>
+
+        <div class="movie-card"><img  class="img-fluid movie-card" data-bs-toggle="modal" data-bs-target="#movieModal5" src="https://images.moneycontrol.com/static-mcnews/2025/10/20251017025934_dude-.jpg?impolicy=website&width=1600&height=900" alt="Dude"></div>
+
+        <div class="movie-card"><img class="img-fluid movie-card" data-bs-toggle="modal" data-bs-target="#movieModal6" src="https://i.scdn.co/image/ab67616d0000b273ab23f0fba2fe563bc5544126" alt="Hi Nana"></div>
+    </div>
+
+    <h4 class="section-title">Top picks for you</h4>
+    <div class="movie-row">
+        <div class="movie-card"><img src="https://img.etimg.com/thumb/width-1600,height-900,imgsize-75140,resizemode-75,msid-128742000/magazines/panache/made-in-korea-ott-release-date-confirmed-when-and-where-to-watch-priyanka-arul-mohans-tamil-movie-online.jpg" alt=""></div>
+        <div class="movie-card"><img src="https://cdn.123telugu.com/content/wp-content/uploads/2025/04/Hit3-7.jpg" alt=""></div>
+        <div class="movie-card"><img src="https://i0.wp.com/indiacurrents.com/wp-content/uploads/2025/03/dragon-2025-movie-review.webp?fit=1200%2C900&quality=80&ssl=1" alt=""></div>
+        <div class="movie-card"><img src="https://sm.ign.com/t/ign_in/review/s/stranger-t/stranger-things-season-1-review_5tf7.1024.jpg" alt=""></div>
+        <div class="movie-card"><img src="https://www.shondaland.com/_next/image?url=%2Fapi%2Fmedia%2Ffile%2F001_Bridgerton_FaveCouple_DaphneSimon_LONGFORM_2500x1406_020325_MB-large-1600x900.jpg&w=3840&q=75" alt=""></div>
+        <div class="movie-card"><img src="https://variety.com/wp-content/uploads/2025/07/Saiyaara2.jpg?w=1000&h=667&crop=1" alt=""></div>
+        <div class="movie-card"><img src="https://assets.thehansindia.com/h-upload/2022/02/02/1198515-gangubai-kathiawadi.webp" alt=""></div>
+    </div>
+
+
+    <h4 class="section-title"> Popular on Netflix</h4>
+    <div class="movie-row">
+        <div class="movie-card"><img src="https://www.metacritic.com/a/img/catalog/provider/2/13/2-f82d9811b29cd9e4522fcd30a21899e5.jpg" alt=""></div>
+        <div class="movie-card"><img src="https://staticimg.amarujala.com/assets/images/2020/03/20/she_1584713601.png?w=414&dpr=1.0&q=80" alt=""></div>
+        <div class="movie-card"><img src="https://images.filmibeat.com/img/2025/03/officeronduty1main-1741020026.jpg" alt=""></div>
+        <div class="movie-card"><img src="https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/52dae4c7-2ab1-4bb9-ab1c-8100fd54e2f9/5406c807-d062-4484-a6ae-54aaf6806b03?host=wbd-images.prod-vod.h264.io&partner=beamcom" alt=""></div>
+        <div class="movie-card"><img src="https://akhilpillai.com/wp-content/uploads/2024/01/IMAGE_1701256756-1024x576.webp" alt=""></div>
+        <div class="movie-card"><img src="https://indiacurrents.com/wp-content/uploads/2025/01/Meiyazhagan.jpg" alt=""></div>
+         <div class="movie-card"><img src="https://i0.wp.com/urbanasian.com/wp-content/uploads/2021/07/Capture-1.png" alt=""></div>
+    </div>
+
+    <h4 class="section-title"> TV shows</h4>
+    <div class="movie-row">
+        <div class="movie-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM73AdZzinSbXdpaRKO6e1EczMRilyCg1d_Q&s" alt=""></div>
+        <div class="movie-card"><img src="https://blog.vidangel.com/wp-content/uploads/2022/08/LockeAndKey_Blog_Image.jpg" alt=""></div>
+        <div class="movie-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU0C4TocXEyEwKYIf-us1VPEVU8DOAkjHjFA&s" alt=""></div>
+        <div class="movie-card"><img src="https://www.heavenofhorror.com/wp-content/uploads/2019/06/dark-season-2-netflix-review.jpg" alt=""></div>
+        <div class="movie-card"><img src="https://substackcdn.com/image/fetch/$s_!bnwe!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F39e47828-4d7f-4a66-8959-1467b665bf0f_960x540.jpeg" alt=""></div>
+        <div class="movie-card"><img src="https://static0.colliderimages.com/wordpress/wp-content/uploads/2022/02/Peaky-Blinders-Cast-and-Character-Guide.jpg?w=1200&h=628&fit=crop" alt=""></div>
+         <div class="movie-card"><img src="https://images.indianexpress.com/2019/12/the-witcher-netflix-759.jpg" alt=""></div>
+    </div>
+
+<!-- cards modal -->
+ <div class="modal fade" id="movieModal0" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content netflix-modal">
+
+      <!-- Close button -->
+      <button type="button" class="btn-close close-btn" data-bs-dismiss="modal"></button>
+
+      <!-- Banner Image -->
+      <div class="modal-banner">
+        <img src="https://deadline.com/wp-content/uploads/2020/01/sexeducation-e1587107829137.jpg" class="img-fluid">
+      </div>
+
+      <!-- Content -->
+      <div class="modal-body text-white">
+        <h2>Sex Education</h2>
+        <p>
+          Insecure Otis has all the answers when it comes to sex advice, thanks to his therapist mother. So rebel Maeve proposes a school sex-therapy clinic.
+        </p>
+
+        <button class="btn btn-light">▶ Play</button>
+        <button class="btn btn-netflix">More Info</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+ <div class="modal fade" id="movieModal1" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content netflix-modal">
+
+      <!-- Close button -->
+      <button type="button" class="btn-close close-btn" data-bs-dismiss="modal"></button>
+
+      <!-- Banner Image -->
+      <div class="modal-banner">
+        <img src="https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQZQUEW3O10X-3WHQzy3NmIzU_5g1QC0XIcOI7oVkD4GgDmKTcuJ8vkBOcOEU2mxfkkw1p9Oksz1og2D3-0LX6afxWYoY3LqjzWOAAGgxe7s1gpBTeuRiqHVbdmA0dEs7q9bk20S_P9MnQ_P3xEMhzoa45sI.jpg?r=944" class="img-fluid">
+      </div>
+
+      <!-- Content -->
+      <div class="modal-body text-white">
+        <h2>Dhurandar</h2>
+        <p>
+          In the early 2000s, an undercover operative infiltrates Karachi's underworld, breaking into its inner circle to dismantle a violent nexus from within.
+        </p>
+
+        <button class="btn btn-light">▶ Play</button>
+        <button class="btn btn-netflix">More Info</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+ <div class="modal fade" id="movieModal2" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content netflix-modal">
+
+      <!-- Close button -->
+      <button type="button" class="btn-close close-btn" data-bs-dismiss="modal"></button>
+
+      <!-- Banner Image -->
+      <div class="modal-banner">
+        <img src="https://static.toiimg.com/photo/93290662.jpeg" class="img-fluid">
+      </div>
+
+      <!-- Content -->
+      <div class="modal-body text-white">
+        <h2>Darlings</h2>
+        <p>
+          Badru hopes her volatile husband will reform if he stops drinking. But when his rage goes too far, she and her mom boldly, albeit clumsily, seek revenge.
+
+        </p>
+
+        <button class="btn btn-light">▶ Play</button>
+        <button class="btn btn-netflix">More Info</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+ <div class="modal fade" id="movieModal3" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content netflix-modal">
+
+      <!-- Close button -->
+      <button type="button" class="btn-close close-btn" data-bs-dismiss="modal"></button>
+
+      <!-- Banner Image -->
+      <div class="modal-banner">
+        <img src="https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQbm_e3DQYMqYApzHilEi8qF94zu9K_GiyEvxjgvBkIQNQSa7-BkkHBIisOIdPFdIkc77oWrA-a6LV8egGCoszLt1hpQ2TJz8-IBiUVfp8qwimlu3D5Yk83WUteWY1dElPHDp3DQco9xxtM3EHutQeyAvttk.jpg?r=f03" class="img-fluid">
+      </div>
+
+      <!-- Content -->
+      <div class="modal-body text-white">
+        <h2>MoneyHeist</h2>
+        <p>
+          Eight thieves take hostages and lock themselves in the Royal Mint of Spain as a criminal mastermind manipulates the police to carry out his plan.
+
+        </p>
+
+        <button class="btn btn-light">▶ Play</button>
+        <button class="btn btn-netflix">More Info</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="movieModal4" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content netflix-modal">
+
+      <!-- Close button -->
+      <button type="button" class="btn-close close-btn" data-bs-dismiss="modal"></button>
+
+      <!-- Banner Image -->
+      <div class="modal-banner">
+        <img src="https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQTT0MJwI4k9iSQ-KjZsvxON0tdOJjTLvz7vChgmRiNwYtc48mFqIzT8sefe3ZvovLWGoHH5yj4l2wu5Imh445zRIJq2pprHX919FmQ5tw9WmK0KroHiu4aymmgDypZmTP3T7um9NC7vGPOgHFziJbC9v1V4.jpg?r=414" class="img-fluid">
+      </div>
+
+      <!-- Content -->
+      <div class="modal-body text-white">
+        <h2>Wednesday</h2>
+        <p>
+          Smart, sarcastic and a little dead inside, Wednesday Addams investigates twisted mysteries while making new friends — and foes — at Nevermore Academy..
+
+        </p>
+
+        <button class="btn btn-light">▶ Play</button>
+        <button class="btn btn-netflix">More Info</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="movieModal5" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content netflix-modal">
+
+      <!-- Close button -->
+      <button type="button" class="btn-close close-btn" data-bs-dismiss="modal"></button>
+
+      <!-- Banner Image -->
+      <div class="modal-banner">
+        <img src="https://img.onmanorama.com/content/dam/mm/en/archive/entertainment/movie-reviews/images/2025/10/17/dude.jpg?w=1120&h=583" class="img-fluid">
+      </div>
+
+      <!-- Content -->
+      <div class="modal-body text-white">
+        <h2>Dude</h2>
+        <p>
+          Childhood friends Agan and Kural reach a crossroads when unexpected feelings and family pressure threaten to upend their relationship.
+
+        </p>
+
+        <button class="btn btn-light">▶ Play</button>
+        <button class="btn btn-netflix">More Info</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="movieModal6" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content netflix-modal">
+
+      <!-- Close button -->
+      <button type="button" class="btn-close close-btn" data-bs-dismiss="modal"></button>
+
+      <!-- Banner Image -->
+      <div class="modal-banner">
+        <img src="https://s.yimg.com/ny/api/res/1.2/CxwFT_GPqPitOhzfzTjmtg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIwNDg7aD0xMTUyO2NmPXdlYnA-/https://media.zenfs.com/en/comingsoon_net_477/f2e9199114401181c377e125429f19aa" class="img-fluid">
+      </div>
+
+      <!-- Content -->
+      <div class="modal-body text-white">
+        <h2>Hi Nanna</h2>
+        <p>
+          A 6-year-old with cystic fibrosis recruits the help of an enigmatic new friend to convince her single dad to tell her about her mother..
+
+        </p>
+
+        <button class="btn btn-light">▶ Play</button>
+        <button class="btn btn-netflix">More Info</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+ 
+
+</body>
+
+</html>
